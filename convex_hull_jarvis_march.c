@@ -174,11 +174,13 @@ int main()
 	fclose(fp);
 	
 	//sort the array of points in ascending order
-	//the reason for sorting this twice is so that I can get the left corner
+	//the reason for sorting this twice was so that I could get the left corner point
 	QSort(input_pts, 0, number_of_points-1, compare_coordinates_y);
 	//QSort(input_pts, 0, number_of_points-1, compare_coordinates_x);
-	//neg right of reference points
-	//pos left of reference points
+	
+	//cross product
+	//neg - right of reference points
+	//pos - left of reference points
 	
 	//lowest point found by sorting
 	points start_point = input_pts[0];
