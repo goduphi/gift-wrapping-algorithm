@@ -3,7 +3,7 @@
 
 /*
 	*Gift wrapping algorithm (Jarvis March) for computing the convex hull
-	*Author: Sarker Nadir Afridi Azmi, Sophomore, UTA
+	*Author: Sarker Nadir Afridi Azmi, Sophomore, University of Texas at Arlington
 	*Reference: Introduction to Algorithms - 3rd Edition
 	*This algorithm was my Honors Project for CSE2320 - Algorithms and Data Structures at The University of Texas at Arlington (Fall 2019)
 	*Instructor: Dr. Alexandra Stefan - http://vlm1.uta.edu/~alex/
