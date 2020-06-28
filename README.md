@@ -13,11 +13,11 @@ Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein
 - convex_hull_plot.xlsx - A sample plot of the output
 
 ### Compilation instructions:
-Random coordinate generator: ```gcc -o rand rand.c -g```  
-Convex hull Jarvis March: ```gcc -o convex_hull_jarvis_march convex_hull_jarvis_march.c -g```  
+- Random coordinate generator: ```gcc -o rand rand.c -g```  
+- Convex hull Jarvis March: ```gcc -o convex_hull_jarvis_march convex_hull_jarvis_march.c -g```  
 
 Note: The -g flag is optional. I only used it for debugging purposes.  
 
 ### Usage
-Random coordinate generator: `./rand <Size of data set, Max: 100> <Range of data set, Max: 1000>`   
-Convex hull Jarvis March: `./convex_hull_jarvis_march < <Outputfile.txt from rand program>`
+- Random coordinate generator: `./rand <Size of data set, Max: 100> <Range of data set, Max: 1000>`   
+- Convex hull Jarvis March: `./convex_hull_jarvis_march < <Outputfile.txt from rand program>`
